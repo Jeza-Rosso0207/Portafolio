@@ -526,7 +526,7 @@ span+span {
     align-items: center;
     text-align: center;
     width: 32rem;
-    height: 33rem;
+    height: auto;
     margin: 0 1rem 2rem 1rem;
     padding: 1rem;
     justify-content: space-between;
@@ -546,7 +546,7 @@ img.logo-unal {
 
 img.logo-one {
     width: 21rem;
-    margin: 7rem 0 6rem 0;
+    margin: 2rem 0;
 }
 
 img.logo-sena {
@@ -569,6 +569,86 @@ img.logo-sena {
     letter-spacing: .1rem;
     font-size: 1.4rem;
 }
+
+/* Cursos */
+
+.cursos {
+    background-color: var(--jet);
+    width: 100%;
+    height: auto;
+}
+
+.cursos h1 {
+    display: block;
+    text-align: center;
+    color: var(--white);
+    font-family: 'Cooper Hewitt';
+    font-size: 2.4rem;
+    letter-spacing: .1rem;
+    padding: 6rem 0 5rem 0;
+}
+
+.cards_container--cursos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem 3rem 2rem;
+}
+
+.cards--cursos {
+    background-color: var(--eerie-black);
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 32rem;
+    height: 33rem;
+    margin: 0 1rem 2rem 1rem;
+    padding: 1rem;
+}
+
+.cards--cursos a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%; 
+}
+
+.cards--cursos img {
+    width: 25rem;
+    height: auto; 
+    max-height: auto; 
+}
+
+.container_texto--cursos {
+    margin-bottom: 1.3rem;
+}
+
+img.logo-unal {
+    width: 24rem;
+
+}
+
+.cards--cursos p:nth-child(1) {
+    color: var(--beaver);
+    font-family: 'Cooper Hewitt';
+    letter-spacing: .1rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: .7rem;
+}
+
+.cards--cursos p:nth-child(2) {
+    color: var(--light-grey);
+    font-family: 'Cooper Hewitt';
+    letter-spacing: .1rem;
+    font-size: 1.4rem;
+}
+
+
 
 /* Proyectos */
 
